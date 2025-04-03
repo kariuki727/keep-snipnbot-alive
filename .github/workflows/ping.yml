@@ -1,5 +1,6 @@
 name: Keep Render Bot Alive
 on:
+  workflow_dispatch:  # Allows manual triggering
   schedule:
     - cron: '* * * * *'  # Runs every minute
 
